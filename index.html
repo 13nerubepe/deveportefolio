@@ -45,16 +45,16 @@
 				<h2 class="me">A propos de moi</h2>
 			</header>
 			<p>
-				Je suis une jeune Camerounaise fascine par la puissance du genie logiciel, jai construit mes bases dans lunivers du developpement et de larchitecture logicielle. Curieuse jai elargie mon horizon vers le data analysis, me formant en autodidacte a travers des tutoriels en ligne et formation dans des centres.
+				Je suis une jeune Camerounaise fascinée par la puissance du génie logiciel, j'ai construit mes bases dans l'univers du développement et de l'architecture logicielle. Curieuse, j'ai élargi mon horizon vers le data analysis, me formant en autodidacte à travers des tutoriels en ligne et des formations dans des centres.
 			</p>
 			<p>
-				Je vois chaque projet comme une opportunite dapprentissage et de progression. Passionnee par la technologie logicielle et la valorisation des donnees, je cherche a developper mon expertise tout en apportant des solutions innovates et efficaces.
+				Je vois chaque projet comme une opportunité d'apprentissage et de progression. Passionnée par la technologie logicielle et la valorisation des données, je cherche à développer mon expertise tout en apportant des solutions innovantes et efficaces.
 			</p>
 			<p>
-				Au dela du monde numerique, jai trouve dans le manniquinat une autre forme dexperience et dans le sport un equilibre entre rigueur et depassement de soi.
+				Au-delà du monde numérique, j'ai trouvé dans le mannequinat une autre forme d'expérience et dans le sport un équilibre entre rigueur et dépassement de soi.
 			</p>
 			<p>
-				Aujourdhui, je me tiens a laube de mon parcours professionnel, prete a apprendre, a experimenter et a relever de nouveaux defis.
+				Aujourd'hui, je me tiens à l'aube de mon parcours professionnel, prête à apprendre, à expérimenter et à relever de nouveaux défis.
 			</p>
 			<section class="main-section">
 				<div class="button-container">
@@ -94,7 +94,7 @@
 								<img src="images/infotest2.jpg" alt="Projet 3" class="project-image">
 							</div>
 							<div class="project-info">
-								<h3>Analyse de performance dune boutique en ligne</h3>
+								<h3>Analyse de performance d'une boutique en ligne</h3>
 								<p>Visualisation des tendances de vente avec Power BI</p>
 							</div>
 						</div>
@@ -156,68 +156,148 @@
 
 					if (selectedProject === 'project1') {
 						skillsList.innerHTML = `
-      <ul>
-        <li>Développement Backend avec Spring Boot</li>
-        <li>Analyse des données en temps réel</li>
-        <li>Utilisation de PrimeNG et Tailwind</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Développement Backend avec Spring Boot</li>
+                        <li>Analyse des données en temps réel</li>
+                        <li>Utilisation de PrimeNG et Tailwind</li>
+                    </ul>
+                `;
 						toolsList.innerHTML = `
-      <ul>
-        <li>Spring Boot</li>
-        <li>Power BI</li>
-        <li>UiPath</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Power BI</li>
+                        <li>UiPath</li>
+                    </ul>
+                `;
 					} else if (selectedProject === 'project2') {
 						skillsList.innerHTML = `
-      <ul>
-        <li>Réservation de vols avec API Aviation</li>
-        <li>Développement Web avec Spring Boot</li>
-        <li>Gestion des bases de données MySQL</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Réservation de vols avec API Aviation</li>
+                        <li>Développement Web avec Spring Boot</li>
+                        <li>Gestion des bases de données MySQL</li>
+                    </ul>
+                `;
 						toolsList.innerHTML = `
-      <ul>
-        <li>Spring Boot</li>
-        <li>Aviationstack API</li>
-        <li>MySQL</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Aviationstack API</li>
+                        <li>MySQL</li>
+                    </ul>
+                `;
 					} else if (selectedProject === 'project3') {
 						skillsList.innerHTML = `
-      <ul>
-        <li>Analyse de données</li>
-        <li>Création de tableaux de bord interactifs</li>
-        <li>Analyse des tendances de vente</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Analyse de données</li>
+                        <li>Création de tableaux de bord interactifs</li>
+                        <li>Analyse des tendances de vente</li>
+                    </ul>
+                `;
 						toolsList.innerHTML = `
-      <ul>
-        <li>Power BI</li>
-        <li>Excel</li>
-        <li>SQL</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Excel</li>
+                        <li>SQL</li>
+                    </ul>
+                `;
 					} else if (selectedProject === 'project4') {
 						skillsList.innerHTML = `
-      <ul>
-        <li>Création de rapports interactifs</li>
-        <li>Analyse visuelle des données</li>
-        <li>Gestion des données avec Tableau</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Création de rapports interactifs</li>
+                        <li>Analyse visuelle des données</li>
+                        <li>Gestion des données avec Tableau</li>
+                    </ul>
+                `;
 						toolsList.innerHTML = `
-      <ul>
-        <li>Tableau</li>
-        <li>SQL</li>
-        <li>R</li>
-      </ul>
-    `;
+                    <ul>
+                        <li>Tableau</li>
+                        <li>SQL</li>
+                        <li>R</li>
+                    </ul>
+                `;
 					}
 				}
 			</script>
+
+			<style>
+				/* Styles de base pour rendre la page responsive */
+				body {
+					font-family: Arial, sans-serif;
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+				}
+
+				.panel {
+					padding: 20px;
+				}
+
+				.button-container {
+					display: flex;
+					justify-content: center;
+					margin-bottom: 20px;
+				}
+
+				.btn {
+					padding: 10px 20px;
+					margin: 0 10px;
+					cursor: pointer;
+				}
+
+				.projects-container {
+					display: grid;
+					grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+					gap: 20px;
+					margin-top: 20px;
+				}
+
+				.project-card {
+					background-color: #f0f0f0;
+					padding: 15px;
+					border-radius: 8px;
+					transition: transform 0.3s ease;
+				}
+
+				.project-card:hover {
+					transform: translateY(-10px);
+				}
+
+				.project-info h3 {
+					margin: 10px 0;
+				}
+
+				.image-container {
+					max-width: 100%;
+					height: auto;
+				}
+
+				.project-image {
+					width: 100%;
+					height: auto;
+					border-radius: 8px;
+				}
+
+				.content-section {
+					display: none;
+				}
+
+				.show-section {
+					display: block;
+				}
+
+				/* Responsive design avec media queries */
+				@media (max-width: 768px) {
+					.button-container {
+						flex-direction: column;
+						align-items: center;
+					}
+
+					.projects-container {
+						grid-template-columns: 1fr;
+					}
+				}
+			</style>
 		</article>
+
 
 		<!-- Contact -->
 		<article id="contact" class="panel">
